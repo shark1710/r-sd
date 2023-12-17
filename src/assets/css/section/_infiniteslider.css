@@ -1,0 +1,23 @@
+/* InfiniteSlider.css */
+/* InfiniteSlider.css */
+
+.infinite-slider {
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px; /* 슬라이더의 최대 너비를 설정하세요. */
+    margin: 0 auto;
+}
+
+.slide {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 100%; /* 이미지를 부모 요소에 맞게 100%로 설정합니다. */
+    height: auto; /* 가로 비율을 유지하면서 세로 크기를 자동 조절합니다. */
+}
+
+.active {
+    display: block;
+}

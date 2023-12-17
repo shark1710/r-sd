@@ -1,0 +1,40 @@
+.contents__inner{
+    height: 100vh;
+    margin: 0px;
+}
+
+.left {
+    width: 40%;
+    height: 100vh;
+    float: left;
+    box-sizing: border-box;
+    color:black;
+    background-color: wheat;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.right { 
+    width: 60%;
+    height: 100vh;
+    float: right;
+    box-sizing: border-box;
+
+    background-color: pink;
+}
+
+.left .map {
+    position: fixed;
+    bottom: 5%;
+    left:5%;
+    width: 50%;
+    padding: 10px;
+    /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); */
+    z-index: 1000;
+}
+
+.title2 {
+    padding-left:50px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 30px;
+}

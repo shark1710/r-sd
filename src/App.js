@@ -1,19 +1,16 @@
-import './App.css';
-import React, { Fragment} from 'react';
-import Header from "./components/header/Header"
-import Section1 from "./components/section1/Section1"
+import React from 'react';
+import { BrowserRouter,Route,Routes } from 'react-router-dom';
 
+import HomeView from "./views/HomeView"
 
 const App = () => {
   return (
-    <Fragment>
-      <Header/>
-      <Section1/>
-      <Section2/>
-      <Section3/>
-      <Section4/>
-      ...
-      <SectionN/>
-    </Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomeView/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
+
+export default App
